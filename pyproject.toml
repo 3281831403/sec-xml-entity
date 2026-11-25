@@ -1,0 +1,14 @@
+[project]
+name = "sec-xml-entity"
+version = "0.1.0"
+description = "XML escaping and entity handling exercise with strict edge-case contracts"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
